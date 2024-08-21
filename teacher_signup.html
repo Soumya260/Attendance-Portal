@@ -1,0 +1,97 @@
+<!-- component -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Signup</title>
+    <link href="./main.css" rel="stylesheet">
+    <!-- <link rel="shortcut icon" href="https://kiit.ac.in/wp-content/uploads/2017/10/KIIT-Favicon-20x20.png" type="image/x-icon"> -->
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="flex gap-5 justify-between mr-4 h-100 mr-4 mb--22 pb--26" >
+            <button class="logo" onclick="gotohome('index.html')">
+                <img  class="logoimg" src="./assets/fevicon.png" alt="kiit logo">
+            </button>
+            <div class="flex gap-10 items-center">
+                <div class="lines">
+                    <a href="https://kiit.ac.in/sap/">Sap Portal</a>
+                </div>
+                <div class="lines">
+                    <a href="https://kiit.ac.in/training-placement/">Placements</a>
+                </div>
+                <div class="lines">
+                    <a href="https://kiit.ac.in/career/">Careers</a>
+                </div>
+                <div class="lines">
+                    <a href="https://news.kiit.ac.in/?_gl=1%2A175ab7q%2A_ga%2ANDEwNDIxODQzLjE2OTQ4MTg1MzI.%2A_ga_34QZ5P9757%2AMTcwOTkzNDM1NS4zNC4xLjE3MDk5MzQ0NDQuMzIuMC4w">News & Events</a>
+                </div>
+                <div class="lines">
+                    <a href="https://coe.kiit.ac.in/?_gl=1*1sl3eib*_ga*NDEwNDIxODQzLjE2OTQ4MTg1MzI.*_ga_34QZ5P9757*MTcwOTkzNDM1NS4zNC4xLjE3MDk5MzQ1NDcuNS4wLjA.">Exams</a>
+                </div>
+
+                <div class="lines">
+                    <a href="https://kiit.ac.in/notices/">Notices</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  Application Details Start -->
+            <div class="container mx-auto py-8">
+                <div class="w-96 mx-auto bg-white-900 shadow-md rounded shadow">
+                    <div class="flex  gap--10 justify-center">
+                        <button class="mx-16 py-4 px-6 text-black text-xl font-bold border-b border-grey-500">Student 
+                        </button>
+                        <button class="mx-16 py-4 px-6 text-black text-xl font-bold border-b border-grey-500">Teacher
+                        </button>
+                    </div>
+    
+                    <form name="student_application" id="student_application" action="">
+                        <div class="py-4 px-8">
+    
+                            <div class="mb-4">
+                                <label class="block text-grey-darker text-sm font-bold mb-2">Email Id</label>
+                                <input class=" border rounded w-full py-2 px-3 text-grey-darker" type="text"
+                                    name="student_id" id="student_id" value="" placeholder="Enter Your Mail id">
+                         
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-grey-darker text-sm font-bold mb-2">Password</label>
+                                <input name="pass1" id="pass1" required class="border rounded w-full py-2 px-3 text-grey-darker form-control form-control-lg mt-2" type="password" placeholder="Password">
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-grey-darker text-sm font-bold mb-2">Re-Enter Password</label>
+                                <input name="pass2" id="pass2" required class="border rounded w-full py-2 px-3 text-grey-darker form-control form-control-lg mt-2" type="password" placeholder="Retype Password">
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-grey-darker text-sm font-bold mb-2">Semester:</label>
+                                <input class=" border rounded w-full py-2 px-3 text-grey-darker" type="text"
+                                    name="student_id"  value="" placeholder="Enter Semester">
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-grey-darker text-sm font-bold mb-2">Section:</label>
+                                <input class=" border rounded w-full py-2 px-3 text-grey-darker" type="text"
+                                    name="student_id" value="" placeholder="Enter Section">
+                         
+                            </div>
+    
+                            <div class="mb-4">
+                                <button
+                                    class="mb-2 mx-16 rounded-full py-1 px-24 bg-gradient-to-r from-green-400 to-blue-500 ">
+                                    Save
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

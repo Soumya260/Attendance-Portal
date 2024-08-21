@@ -1,0 +1,58 @@
+
+.logoimg{
+    height: 100.68px;
+    
+}
+.prop {
+  border: none;
+  width: 100%;
+  height: 50px;
+  margin-top: 0;
+  border-bottom: 1px solid #1f120933;
+  box-shadow: 0 20px 20px -20px #333;
+  margin: -40px auto 10px;
+}
+
+.lines a {
+  border-bottom: 3px solid transparent; 
+  transition: border-bottom 0.3s; 
+}
+
+.lines a:hover {
+  color: #15a499;
+  border-bottom: 3px solid #15a499; 
+  transform-origin: center;
+  transition: all 0.3s;
+}
+
+.lines a:not(:hover) {
+  text-decoration: none;
+}
+  
+  .tint{
+    position: relative;
+    z-index: 2;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.6);
+  }
+.bgcolor{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.signup a {
+  display: inline-block;
+  padding: 10px 20px; 
+  background: linear-gradient(to right, #3b82f6, #14b8a6);
+  color: white;
+  font-weight: bold; 
+  text-align: center; 
+  text-decoration: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.2); 
+  transition: all 0.3s ease-in-out; 
+}
+
+.signup a:hover {
+  background: linear-gradient(to right, #14b8a6, #3b82f6); 
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 0 12px 24px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px); 
+}
